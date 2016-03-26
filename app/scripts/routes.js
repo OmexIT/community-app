@@ -353,22 +353,22 @@
             .when('/editaccrule/:id', {
                 templateUrl: 'views/accounting/edit_acc_rule.html'
             })
-            .when('/run_periodic_accrual',{
+            .when('/run_periodic_accrual', {
                 templateUrl: 'views/accounting/periodic_accrual_accounting.html'
             })
-            .when('/openingbalances',{
+            .when('/openingbalances', {
                 templateUrl: 'views/accounting/openingbalances.html'
             })
-            .when('/viewprovisioningentries',{
+            .when('/viewprovisioningentries', {
                 templateUrl: 'views/accounting/provisioning/ProvisioningEntries.html'
             })
-            .when('/createprovisioningentries',{
+            .when('/createprovisioningentries', {
                 templateUrl: 'views/accounting/provisioning/CreateProvisioningEntries.html'
             })
-            .when('/viewprovisioningentry/:entryId',{
+            .when('/viewprovisioningentry/:entryId', {
                 templateUrl: 'views/accounting/provisioning/ViewProvisioningEntry.html'
             })
-            .when('/viewprovisioningjournalentry/:entryId',{
+            .when('/viewprovisioningjournalentry/:entryId', {
                 templateUrl: 'views/accounting/provisioning/ViewProvisioningJournalEntries.html'
             })
             .when('/viewcode/:id', {
@@ -814,6 +814,14 @@
             })
             .when('/editprovisioningcriteria/:criteriaId', {
                 templateUrl: 'views/organization/provisioning/EditProvisioningCriteria.html'
+            }).when('/payments', {
+                templateUrl: 'views/payments/payments.html'
+            }).when('/paymentDetails', {
+                templateUrl: 'views/payments/paymentDetails.html'
+            }).when('/paymentChannels', {
+                templateUrl: 'views/payments/paymentChannels.html'
+            }).when('/createChannel', {
+                templateUrl: 'views/payments/editChannel.html'
             });
         $locationProvider.html5Mode(false);
     };

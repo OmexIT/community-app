@@ -114,8 +114,7 @@
                     location.path('/home').replace();
                 } else {
                     scope.loggedInUserId = data.userId;
-                }
-                ;
+                };
             });
 
             var setSearchScopes = function () {

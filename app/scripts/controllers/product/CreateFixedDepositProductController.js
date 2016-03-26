@@ -124,7 +124,7 @@
 
                 var temp = '';
 
-                //configure fund sources for payment channels
+                //configure fund sources for payments channels
                 for (var i in scope.configureFundOptions) {
                     temp = {
                         paymentTypeId: scope.configureFundOptions[i].paymentTypeId,

@@ -3748,6 +3748,34 @@
     "label.anchor.SMTP":"Email Service",
     "error.msg.externalservice.servicename.invalid": "Service Name `{{params[0].value}}` does not exist.",
     "error.msg.externalservice.property.invalid": "Parameter `{{params[0].value}}` does not exist for the ServiceName `{{params[1].value}}`.",
-    "error.msg.configuration.id.not.modifiable": "Unable to modify this configuration as it is a trap door configuration."
+    "error.msg.configuration.id.not.modifiable": "Unable to modify this configuration as it is a trap door configuration.",
+
+    "#----------------------": "------------",
+
+    "#Payments ": "....",
+    "label.anchor.payment":"Payments",
+    "label.anchor.paymentChannels":"Payment Channels",
+    "label.paymentchannelsdescription":"Add new or modify or inactivate payment channel",
+    "label.anchor.paymentdetails":"Payment Details",
+    "label.paymentdetailsdescription":"View, filter, export payment details",
+    "label.heading.paymentType":"Payment Type",
+    "label.heading.paymentId":"ID",
+    "label.heading.paymentEntity":"Entity Name",
+    "label.heading.paymentAmount":"Amount",
+    "label.heading.paymentStatus":"Status",
+    "label.button.createPaymentChannel":"Create Channel",
+    "label.heading.channelName":"Channel Name",
+    "label.heading.channelEndpoint":"Channel Endpoint",
+    "label.heading.channelCallback":"Is Callback?",
+    "label.heading.channelActive":"Is Active?",
+    "label.anchor.editChannel":"Edit Channel",
+    "label.heading.editChannel":"Edit Channel",
+    "label.input.channelName":"Channel Name",
+    "label.input.channelEndpoint":"Channel Endpoint",
+    "label.input.channelType":"Channel Type",
+    "label.menu.selectChannelTypePrompt":"Select Channel Type",
+    "label.menu.selectChannelMobile":"Mobile Channel Type",
+    "label.menu.selectChannelBank":"Bank Channel Type",
+    "label.menu.selectChannelEmail":"Email Channel Type"
 
 }
